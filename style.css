@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+ul.navlist {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+footer {
+  background-color: #1f2937;
+}
+
+h1.main-text {
+  color: #F9FAF8;
+  font-weight: 900; 
+  font-size: 48px;
+  line-height: 1;
+}
+
+.top-section {
+  display: flex;
+  flex-direction: column;
+  background-color: #1f2937;
+  color: #E5E7EB;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+  font-size: 18px;
+  padding: 8px calc(100vw / 7) 48px;
+  gap: 32px;
+}
+
+.creator-image{
+  width: 50%;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.about-me {
+  display: flex;
+  justify-content: space-between;
+  width: calc(100vw * 5 / 7);
+}
+
+.about-left, .about-right {
+  width: 50%;
+}
+ 
+.about-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.about-left {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.sign-up {
+  border-radius: 8px;
+  border: #3882F6;
+  padding: 8px 32px;
+  background-color: #3882F6;
+  color: white;
+  font-weight: bold;
+  font-family: inherit;
+}
+
+
+
+ 
+
+
+
